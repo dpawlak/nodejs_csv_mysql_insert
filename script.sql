@@ -1,0 +1,7 @@
+CREATE TABLE pole_count (
+	id INT NOT NULL AUTO_INCREMENT,
+	fielder VARCHAR(255) NOT NULL,
+	date DATE NOT NULL,
+	count INT NOT NULL,
+	PRIMARY KEY (id)
+);
